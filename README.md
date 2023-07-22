@@ -7,4 +7,5 @@ My first proposed solution is using OCR and seeing if this is sufficient. It see
 
 From ChatGPT, Model GPT-4: "The Tesseract library is an open-source OCR engine developed by HP and is now maintained by Google. It supports many languages and can be trained to recognize other languages", which will be useful for identifying Tamil words. Because we already know we will only be feeding in Tamil words, we may be able to simplify the process. "Pytesseract is a Python wrapper for Tesseract."
 
+07/22:
 I have installed the command-line version of tesseract and will need to continue further exploration for pytesseract.
