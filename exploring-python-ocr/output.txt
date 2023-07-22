@@ -1,0 +1,4 @@
+Tesseract sample
+
+['eng', 'osd', 'tam']
+
