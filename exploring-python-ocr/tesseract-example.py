@@ -1,5 +1,5 @@
 from PIL import Image
-import pyTesseract
+import pytesseract
 import numpy as np
 
 filename = 'tesseract-example.jpg'
