@@ -10,3 +10,5 @@ print(pytesseract.get_languages(config=""))
 
 # Checking for tamil
 print(pytesseract.image_to_string(Image.open('tesseract-tamil-example.png'),lang='tam'))
+
+#hi testing git
