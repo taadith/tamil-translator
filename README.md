@@ -5,6 +5,8 @@ This project aims to take a picture of a Tamil word I have taken, identify it, a
 ## Log (because commit messages are often too short and gibberish):
 07/26:
 I am following an EasyOCR Tamil tutorial, which is perfect for what I need! I seem to be having an issue with loading the model required for Tamil and English.
+...
+I found my solution with the original tesseract-ocr project. I will simply run the bash commands through Python's OS library.
 
 07/22:
 I have installed the command-line version of tesseract, which succesfully works for English words, and will need to continue further exploration for pytesseract. I have installed the capability to recognize Tamil words but I have not tested this yet.
