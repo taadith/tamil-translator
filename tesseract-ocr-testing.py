@@ -35,7 +35,7 @@ def generate_ocr_text(file_path,output_path = "./out"):
     print("Grabbing all files from the file path...")
     files = get_files_from_path(file_path)
 
-    //TODO: fix this portion of code
+    #TODO: fix this portion of code
 
     # print("Iterating thru each file...")
     # for file in files:
