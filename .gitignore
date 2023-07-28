@@ -1,3 +1,4 @@
 # output directory
-./out/
+./out
+./out/*
 ./out/*.txt
