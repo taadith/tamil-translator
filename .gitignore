@@ -1,3 +1,2 @@
-# output file
-./*.txt
-./*/*.txt
+# output directory
+./out

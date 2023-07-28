@@ -19,11 +19,11 @@ def get_file_name(file_path):
 def get_files_from_path(file_path):
     #check if it is a file or folder path
     if not os.path.isdir(file_path):
-        return [os.path.abspath(file_path)]
+        return [file_path]
     else:
         # get a list of all files in the folder
         contents = os.listdir(file_path)
-        files = [os.path.abspath(file) for file in contents if not os.path.isdir(file)]
+        files = [file for file in contents if not os.path.isdir(file)]
         return files
 
 def generate_ocr_text(file_path,output_path = "./out"):
@@ -46,4 +46,4 @@ def generate_ocr_text(file_path,output_path = "./out"):
 # print(get_files_from_path("./tesseract-ocr-testing.py"))
 # print(get_files_from_path("."))
 
-generate_ocr_text("./tamil-text")
+generate_ocr_text("./tamil-text/example1.jpeg")
