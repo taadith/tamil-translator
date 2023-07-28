@@ -3,6 +3,10 @@
 This project aims to take a picture of a Tamil word I have taken, identify it, and then translate it for me.
 
 ## Log (because commit messages are often too short and gibberish):
+
+07/27:
+I added a few helper functions to generate the text. I keep running into an issue with running the portion of code that executes the tesseract shell command through os.system(...).
+
 07/26:
 I am following an EasyOCR Tamil tutorial, which is perfect for what I need! I seem to be having an issue with loading the model required for Tamil and English.
 ...
