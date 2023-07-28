@@ -1,2 +1,3 @@
 # output file
-./exploring-python-ocr/*/*.txt
+./*.txt
+./*/*.txt
