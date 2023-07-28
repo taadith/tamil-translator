@@ -45,3 +45,5 @@ def generate_ocr_text(file_path,output_path = "./out"):
 # print(get_files_from_path("./tamil-text"))
 # print(get_files_from_path("./tesseract-ocr-testing.py"))
 # print(get_files_from_path("."))
+
+generate_ocr_text("./tamil-text")
